@@ -1,6 +1,7 @@
 import { v4 as uuidV4 } from "uuid";
 
 class User {
+  [x: string]: any;
   id: string;
   name: string;
   admin: boolean;
